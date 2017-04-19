@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">hackathonAppUi</string>
+    <string name="hindi">Hindi</string>
+    <string name="english">English</string>
+    <string name="ask">Get Help</string>
+    <string name="volunteer">Help Others</string>
+    <string name="hint_email">Email Id</string>
+    <string name="hint_password">Password</string>
+</resources>
