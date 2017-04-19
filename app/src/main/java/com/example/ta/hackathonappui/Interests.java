@@ -28,13 +28,16 @@ public class Interests extends AppCompatActivity {
     TextView textView;
     Button btn;
 
-    private ArrayList<String> users = new ArrayList<>();
-
-    private DatabaseReference mDatabaseReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        Intent intent = getIntent();
+
+        email = intent.getStringExtra("email");
+        password = intent.getStringExtra("password");
+        lang=intent.getStringExtra("lang");
+        mode=intent.getStringExtra("mode");
 
         textView = (TextView)findViewById(R.id.textvw);
         btn = (Button)findViewById(R.id.searchpeer);
@@ -44,12 +47,6 @@ public class Interests extends AppCompatActivity {
 
         inte = (EditText) findViewById(R.id.interest);
 
-        Intent intent = getIntent();
-
-        email = intent.getStringExtra("email");
-        password = intent.getStringExtra("password");
-        lang=intent.getStringExtra("lang");
-        mode=intent.getStringExtra("mode");
 
 
 

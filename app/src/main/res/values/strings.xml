@@ -6,4 +6,5 @@
     <string name="volunteer">Help Others</string>
     <string name="hint_email">Email Id</string>
     <string name="hint_password">Password</string>
+    <string name="wait">Waiting for Peer</string>
 </resources>
